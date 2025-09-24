@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                 {/* Profile Image - Replace with your actual photo */}
                 <img 
-                  src={`${process.env.PUBLIC_URL}/images/profile/tadiwa-matewe.jpg`} 
+                  src="/images/profile/tadiwa-matewe.jpg" 
                   alt="Tadiwa Matewe" 
                   className="w-full h-full object-cover rounded-full"
                   onError={(e) => {

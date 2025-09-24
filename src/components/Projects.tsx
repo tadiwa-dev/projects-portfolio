@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
       solution: "Developed a comprehensive Flutter mobile application with secure payment integration, real-time donation tracking, and progress visualization. The app provides a user-friendly interface for making donations while offering complete transparency about how funds are being used for church construction projects.",
       impact: "Successfully facilitated significant donations for church construction projects across the region. The app improved donation transparency, increased community engagement, and streamlined the fundraising process, helping complete multiple church buildings that serve local communities.",
       technologies: ["Flutter", "Android Studio", "Firebase", "Google Play Store", "Payment Integration"],
-      image: `${process.env.PUBLIC_URL}/images/projects/development-dollar-app.jpg`
+      image: "/images/projects/development-dollar-app.jpg"
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
       solution: "Created a comprehensive digital ticketing system with QR code generation, Google Sheets integration for real-time data management, and instant verification capabilities. The system includes duplicate prevention, real-time analytics, and seamless entry point management for 1,000+ attendees.",
       impact: "Transformed event management by reducing entry time by 70%, eliminating ticket fraud, and providing real-time attendance analytics. The system successfully managed 1,000+ attendees with zero security incidents and significantly improved the overall event experience for both organizers and participants.",
       technologies: ["QR Code Generation", "Google Sheets API", "Real-time Verification", "Event Management", "Analytics"],
-      image: `${process.env.PUBLIC_URL}/images/projects/youth-ticketing-system.jpg`
+      image: "/images/projects/youth-ticketing-system.jpg"
     },
     {
       id: 3,
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
       solution: "Developed an AI-powered chatbot prototype that integrates with popular messaging platforms (WhatsApp, Telegram) and functions as a Progressive Web App. The system provides 24/7 private support, crisis intervention capabilities, and wellness guidance while maintaining strict privacy and data security standards.",
       impact: "Created a prototype that demonstrates the potential to make mental health support more accessible and affordable for youth. The solution addresses the critical gap in mental health services by providing immediate, private, and stigma-free support through familiar communication channels, potentially reaching thousands of young people who previously had no access to such resources.",
       technologies: ["AI/ML", "WhatsApp API", "Telegram Bot", "PWA", "Mental Health", "Privacy & Security"],
-      image: `${process.env.PUBLIC_URL}/images/projects/ai-chatbot.jpg`
+      image: "/images/projects/ai-chatbot.jpg"
     }
   ];
 
