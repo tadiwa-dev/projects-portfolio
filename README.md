@@ -1,46 +1,113 @@
-# Getting Started with Create React App
+# Tadiwa Matewe - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React, TypeScript, and Tailwind CSS. This portfolio showcases my work as a Hardware Engineering graduate specializing in app development, AI, and digital systems.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Modern Design**: Clean, dark theme with vibrant blue/teal accents
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
+- **Smooth Animations**: Hover effects, scroll animations, and transitions
+- **Interactive Projects**: Modal popups with detailed project information
+- **Contact Form**: Functional contact form with validation
+- **GitHub Pages Ready**: Configured for easy deployment
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend**: React 19, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Custom SVG icons and emojis
+- **Deployment**: GitHub Pages
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📱 Sections
 
-### `npm test`
+1. **Hero Section**: Introduction with call-to-action buttons
+2. **Projects**: Showcase of 3 featured projects with detailed modals
+3. **Skills**: Technology stack and competencies
+4. **About**: Personal story and values
+5. **Contact**: Contact form and social links
+6. **Footer**: Additional links and information
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (v14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/tadiwa-matewe/portfolio.git
+cd portfolio
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📦 Building for Production
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm run build
+```
 
-## Learn More
+This builds the app for production to the `build` folder.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Deploying to GitHub Pages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Make sure your repository is set up on GitHub
+2. Update the `homepage` field in `package.json` with your GitHub Pages URL
+3. Deploy:
+```bash
+npm run deploy
+```
+
+This will build the project and deploy it to the `gh-pages` branch.
+
+## 🎨 Customization
+
+### Colors
+The color scheme can be customized in `tailwind.config.js`:
+- Primary colors: Blue theme
+- Accent colors: Teal theme
+- Background: Dark gray theme
+
+### Content
+Update the following files to customize content:
+- `src/components/Hero.tsx` - Hero section content
+- `src/components/Projects.tsx` - Project information
+- `src/components/Skills.tsx` - Skills and technologies
+- `src/components/About.tsx` - About section
+- `src/components/Contact.tsx` - Contact information
+
+### Images
+Replace placeholder images with your own:
+- Avatar image in Hero section
+- Project images in Projects section
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+
+## 📞 Contact
+
+- **Email**: tadiwa.matewe@example.com
+- **LinkedIn**: [linkedin.com/in/tadiwa-matewe](https://linkedin.com/in/tadiwa-matewe)
+- **GitHub**: [github.com/tadiwa-matewe](https://github.com/tadiwa-matewe)
+
+---
+
+Built with ❤️ by Tadiwa Matewe
